@@ -1,0 +1,15 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment variables
+.env
+
+# Ignore logs
+*.log
+
+# Ignore ts build file
+dist

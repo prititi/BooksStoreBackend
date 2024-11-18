@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext", 
+    "outDir": "./dist", 
+    "rootDir": "./", 
+    "esModuleInterop": true, 
+    "strict": true, 
+    "skipLibCheck": true, 
+    "resolveJsonModule": true, 
+    "moduleResolution": "node",
+    "baseUrl": ".",  // Resolves modules relative to the root directory
+    "paths": {        // Aliases to simplify imports
+      "@config/*": ["./config/*"],
+      "@routes/*": ["./routes/*"],
+      "@models/*": ["./models/*"]
+    }
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
