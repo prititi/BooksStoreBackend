@@ -2,13 +2,13 @@
   "name": "books-store",
   "version": "1.0.0",
   "description": "This is a backend for a book store application.",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "type": "module", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run predev && nodemon --exec ts-node ./index.ts", 
     "build": "tsc", 
-    "start": "node dist/index.js",
+    "start": "node index.ts",
     "prestart": "npm run build", 
     "predev": "npm run build"
   },
